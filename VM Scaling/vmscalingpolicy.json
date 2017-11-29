@@ -58,6 +58,10 @@
       {
         "allOf": [
           {
+            "source": "action",
+            "equals": "Microsoft.compute/virtualMachines/write"
+          },
+          {
             "field": "type",
             "equals": "Microsoft.Compute/virtualMachines"
           },
