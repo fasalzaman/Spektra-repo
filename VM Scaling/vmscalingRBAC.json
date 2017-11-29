@@ -1,0 +1,22 @@
+{
+  "Name": "Virtual Machine Scaling and Perfomance RBAC Roles",
+  "Id": "fb99bac5-5d10-4a50-a6fc-b2d30fa029f5",
+  "IsCustom": true,
+  "Description": "Virtual Machine Scaling and Perfomance",
+  "Actions": [
+	"Microsoft.Authorization/*/read",
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Storage/storageAccounts/*",
+    "Microsoft.Network/publicIpAddresses/*",
+    "Microsoft.Network/networkInterfaces/*",
+    "Microsoft.Network/virtualNetworks/*",
+    "Microsoft.Network/locations/*",
+    "Microsoft.Compute/virtualMachines/*"
+  ],
+  "NotActions": [
+
+  ],
+  "AssignableScopes": [
+  ]
+}
